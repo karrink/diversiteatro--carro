@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -82,9 +83,10 @@
             </div>
         </div>
         <!-- diversiteatro fin -->
+        <!-- Cards -->
         <div class="row row-cols-1 row-cols-md-3 container-fluid">
             <div class="col mb-4">
-                <div class="card h-100 card1">
+                <div data-aos="zoom-in" class="card h-100 card1">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card1h5">Coco</h5>
@@ -95,7 +97,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card2">
+                <div data-aos="zoom-in" class="card h-100 card2">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card2h5">Aixa</h5>
@@ -104,7 +106,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card3">
+                <div data-aos="zoom-in" class="card h-100 card3">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card3h5">Tomas</h5>
@@ -115,7 +117,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card4">
+                <div data-aos="zoom-in" class="card h-100 card4">
                     <img src="../img/paris.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card4h5">Paris Caraballo</h5>
@@ -126,7 +128,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card5">
+                <div data-aos="zoom-in" class="card h-100 card5">
                     <img src="../img/leo.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card5h5">Leo Carro</h5>
@@ -136,7 +138,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card6">
+                <div data-aos="zoom-in" class="card h-100 card6">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card6h5">Matt</h5>
@@ -147,7 +149,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card7">
+                <div data-aos="zoom-in" class="card h-100 card7">
                     <img src="../img/ariana.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card7h5">Ariana Abigail</h5>
@@ -157,7 +159,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card8">
+                <div data-aos="zoom-in" class="card h-100 card8">
                     <img src="../img/adhara.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card8h5">Adhara I. Redruello</h5>
@@ -167,7 +169,7 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100 card9">
+                <div data-aos="zoom-in" class="card h-100 card9">
                     <img src="../img/mrx.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title card9h5">Vos?</h5>
@@ -198,6 +200,13 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1500
+        });
     </script>
 </body>
 
