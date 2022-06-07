@@ -1,271 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
-
-/* body gradient */
-
+/* body */
 body {
-    background-image: radial-gradient(circle, #d47777, #c78663, #b29560, #9aa16e, #85a985, #68ad94, #43afab, #0cafc6, #00aae9, #009dff, #8285ff, #d957ec);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-/* body fin */
+  background-image: radial-gradient(circle, #d47777, #c78663, #b29560, #9aa16e, #85a985, #68ad94, #43afab, #0cafc6, #00aae9, #009dff, #8285ff, #d957ec);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 /* header */
-
 header {
-    background-image: url(../img/wave.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    width: 100%;
-}
-
-.h1h {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 100%; }
+  header h1 {
     text-align: center;
     font-family: 'Oleo Script Swash Caps', cursive;
-    color: rgb(255, 0, 0);
+    color: red;
     font-size: 50px;
-    text-shadow: 1px 1px 1px violet;
-}
-
-.nav-item {
-    text-shadow: 1px 1px 1px violet;
-}
+    text-shadow: 1px 1px 1px violet; }
+  header li {
+    text-shadow: 1px 1px 1px violet; }
 
 /* index */
-
 .jumbotron {
-    background-color: rgba(29, 185, 177, 0.075);
-    color: rgba(255, 0, 0, 0.719);
-    text-shadow: 1px 1px 1px violet;
-    text-align: center;
-}
+  background-color: rgba(29, 185, 177, 0.075);
+  color: rgba(255, 0, 0, 0.719);
+  text-shadow: 1px 1px 1px violet;
+  text-align: center; }
 
 /* nosotres */
-
-/* presentacion */
 .card0 {
-    background-color: #0cb0c628;
-}
-
-.card0h5 {
+  background-color: #0cb0c628; }
+  .card0 h5 {
     text-align: center;
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 40px;
-    color: red;
-}
-
-.card0p {
+    color: red; }
+  .card0 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
-    text-align: justify;
-}
+    text-align: justify; }
 
-/* card1 */
-.card1 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card1h5 {
+.cardsn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .cardsn h5 {
     text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card1p {
-    text-align: center;
-}
-
-/* card2 */
-.card2 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card2h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card2p {
-    text-align: center;
-}
-
-/* card3 */
-.card3 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card3h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card3p {
-    text-align: center;
-}
-
-/* card4 */
-.card4 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card4h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card4p {
-    text-align: center;
-}
-
-/* card5 */
-.card5 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card5h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card5p {
-    text-align: center;
-}
-
-/* card6 */
-.card6 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card6h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card6p {
-    text-align: center;
-}
-
-/* card7 */
-.card7 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card7h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card7p {
-    text-align: center;
-}
-
-/* card8 */
-.card8 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card8h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card8p {
-    text-align: center;
-}
-
-/* card9 */
-.card9 {
-    background-color: #009dff27;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card9h5 {
-    text-align: center;
-    color: rgb(243, 59, 59);
-}
-
-.card9p {
-    text-align: center;
-}
-
-/* fin de nosotres */
+    color: #f33b3b; }
+  .cardsn p {
+    text-align: center; }
+  .cardsn .cardst {
+    background-color: #009dff27; }
 
 /* contacto */
-
 .check {
-    text-align: center;
-}
-
-/* fin de contacto */
+  text-align: center; }
 
 /* multimedia */
 .mult {
-    text-align: center;
-    color: rgb(221, 56, 56);
-}
+  text-align: center;
+  color: #dd3838; }
 
 /* noticias */
-.noticias{
+.noticias {
+  height: auto;
+  background-color: #308bc434; }
+  .noticias .n {
     height: auto;
-    background-color: #308bc434;
-}
-
-.nleft1{
-    height: auto;
-    padding: 10px;
-}
-
-.nright1{
-    height: auto;
-    padding: 10px;
-}
-
-.nleft2{
-    height: auto;
-    padding: 10px;
-}
-
-.nright2{
-    height: auto;
-    padding: 10px;
-}
+    padding: 10px; }
 
 /* footer */
-
 footer {
-    height: auto;
-    width: 100%;
-    text-align: center;
-    text-shadow: 1px 1px 1px violet;
-    font-size: 30px;
-    background-image: url(../img/wave2.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-footer h2 {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px violet;
+  font-size: 30px;
+  background-image: url(../img/wave2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  footer h2 {
     color: red;
-    font-family: 'Oleo Script Swash Caps', cursive;
-}
-
-footer i {
+    font-family: 'Oleo Script Swash Caps', cursive; }
+  footer i {
     color: red;
-    margin-right: 25px;
-}
+    margin-right: 25px; }
