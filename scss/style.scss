@@ -1,11 +1,11 @@
+@import "./components/variable";
+@import "./components/fonts";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
-
 /* body */
 body {
     background-image: radial-gradient(circle, #d47777, #c78663, #b29560, #9aa16e, #85a985, #68ad94, #43afab, #0cafc6, #00aae9, #009dff, #8285ff, #d957ec);
@@ -14,112 +14,7 @@ body {
     background-size: cover;
 }
 
-/* header */
-header {
-    background-image: url(../img/wave.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    width: 100%;
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
 
-    h1 {
-        text-align: center;
-        font-family: 'Oleo Script Swash Caps', cursive;
-        color: rgb(255, 0, 0);
-        font-size: 50px;
-        text-shadow: 1px 1px 1px violet;
-    }
-
-    li {
-        text-shadow: 1px 1px 1px violet;
-    }
-}
-
-/* index */
-.jumbotron {
-    background-color: rgba(29, 185, 177, 0.075);
-    color: rgba(255, 0, 0, 0.719);
-    text-shadow: 1px 1px 1px violet;
-    text-align: center;
-}
-
-/* nosotres */
-.card0 {
-    background-color: #0cb0c628;
-
-    h5 {
-        text-align: center;
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-size: 40px;
-        color: red;
-    }
-
-    p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 13px;
-        text-align: justify;
-    }
-}
-
-.cardsn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    h5 {
-        text-align: center;
-        color: rgb(243, 59, 59);
-    }
-
-    p {
-        text-align: center;
-    }
-
-    .cardst {
-        background-color: #009dff27;
-    }
-}
-
-/* contacto */
-.check {
-    text-align: center;
-}
-
-/* multimedia */
-.mult {
-    text-align: center;
-    color: rgb(221, 56, 56);
-}
-
-/* noticias */
-.noticias {
-    height: auto;
-    background-color: #308bc434;
-
-    .n {
-        height: auto;
-        padding: 10px;
-    }
-}
-
-/* footer */
-footer {
-    height: auto;
-    width: 100%;
-    text-align: center;
-    text-shadow: 1px 1px 1px violet;
-    font-size: 30px;
-    background-image: url(../img/wave2.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    h2 {
-        color: red;
-        font-family: 'Oleo Script Swash Caps', cursive;
-    }
-
-    i {
-        color: red;
-        margin-right: 25px;
-    }
-}

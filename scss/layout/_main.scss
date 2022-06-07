@@ -1,0 +1,64 @@
+/* index */
+.jumbotron {
+    background-color: rgba(29, 185, 177, 0.075);
+    color: rgba(255, 0, 0, 0.719);
+    text-shadow: 1px 1px 1px violet;
+    text-align: center;
+}
+
+/* nosotres */
+.card0 {
+    background-color: #0cb0c628;
+
+    h5 {
+        text-align: center;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 40px;
+        color: red;
+    }
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        text-align: justify;
+    }
+}
+
+.cardsn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    h5 {
+        text-align: center;
+        color: rgb(243, 59, 59);
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .cardst {
+        background-color: #009dff27;
+    }
+}
+
+/* contacto */
+.check {
+    text-align: center;
+}
+
+/* multimedia */
+.mult {
+    text-align: center;
+    color: rgb(221, 56, 56);
+}
+
+/* noticias */
+.noticias {
+    height: auto;
+    background-color: #308bc434;
+
+    .n {
+        height: auto;
+        padding: 10px;
+    }
+}

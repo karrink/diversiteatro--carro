@@ -1,0 +1,22 @@
+/* footer */
+footer {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 1px violet;
+    font-size: 30px;
+    background-image: url(../img/wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: red;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+
+    i {
+        color: red;
+        margin-right: 25px;
+    }
+}
