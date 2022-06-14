@@ -1,3 +1,4 @@
+/* header */
 header {
     background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
@@ -6,15 +7,13 @@ header {
     height: auto;
     width: 100%;
 
-    h1 {
-        text-align: center;
-        font-family: 'Oleo Script Swash Caps', cursive;
-        color: rgb(255, 0, 0);
-        font-size: 50px;
-        text-shadow: 1px 1px 1px violet;
-    }
+    .libar {
+        justify-content: right;
 
-    li {
-        text-shadow: 1px 1px 1px violet;
+        li {
+            font-size: 25px;
+            text-align: right;
+            text-shadow: 2px 2px 2px rgb(13, 28, 243);
+        }
     }
 }

@@ -7,27 +7,18 @@
 }
 
 /* nosotres */
-.card0 {
-    background-color: #0cb0c628;
-
-    h5 {
-        text-align: center;
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-size: 40px;
-        color: red;
-    }
-
-    p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 13px;
-        text-align: justify;
-    }
+h1 {
+    color: rgba(255, 0, 0, 0.671);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .cardsn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    h5 {
+    .ch2 {
         text-align: center;
         color: rgb(243, 59, 59);
     }
@@ -42,11 +33,63 @@
 }
 
 /* contacto */
+form {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.493);
+}
+
 .check {
     text-align: center;
 }
 
 /* multimedia */
+.mm {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.664);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "e1 e1"
+        "e2 e2"
+        "e3 e4"
+        "e5 e6"
+        "e7 .";
+
+    .e1 {
+        grid-area: e1;
+    }
+
+    .e2 {
+        margin: 20px;
+        grid-area: e2;
+    }
+
+    .e3 {
+        margin: 5px;
+        grid-area: e3;
+    }
+
+    .e4 {
+        margin: 5px;
+        grid-area: e4;
+    }
+
+    .e5 {
+        margin: 5px;
+        grid-area: e5;
+    }
+
+    .e6 {
+        margin: 5px;
+        grid-area: e6;
+    }
+
+    .e7 {
+        margin: 5px;
+        grid-area: e7;
+    }
+}
+
 .mult {
     text-align: center;
     color: rgb(221, 56, 56);
@@ -57,8 +100,31 @@
     height: auto;
     background-color: #308bc434;
 
-    .n {
+    .ni {
         height: auto;
         padding: 10px;
+    }
+
+    .nt {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:816px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .mm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "e1 e1"
+            "e2 e2"
+            "e3 e3"
+            "e4 e4"
+            "e5 e5"
+            "e6 e6"
+            "e7 e7";
     }
 }
