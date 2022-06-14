@@ -1,0 +1,27 @@
+// variables
+$primario: rgba(255, 0, 0, 0.671);
+$secundario: rgb(243, 59, 59);
+
+
+// maps 
+$headings: (h1:4em,
+    h2:2em,
+    h3:1em,
+    h4:0.75em,
+    h5:0.50em,
+    h6:0.25em,
+);
+
+$h1: map-get($headings, h1);
+$h2: map-get($headings, h2);
+$h3: map-get($headings, h3);
+$h4: map-get($headings, h4);
+$h5: map-get($headings, h5);
+$h6: map-get($headings, h6);
+
+// mixins
+@mixin size ($m, $p, $ga) {
+    margin: $m;
+    padding: $p;
+    grid-area: $ga;
+}

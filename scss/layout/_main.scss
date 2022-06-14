@@ -10,7 +10,7 @@
 h1 {
     color: rgba(255, 0, 0, 0.671);
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 60px;
+    font-size: $h1;
     text-align: center;
     text-transform: uppercase;
 }
@@ -19,6 +19,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     .ch2 {
+        font-size: $h2;
         text-align: center;
         color: rgb(243, 59, 59);
     }
@@ -56,36 +57,34 @@ form {
         "e7 .";
 
     .e1 {
-        grid-area: e1;
+        @include size(0, 0, e1);
     }
 
     .e2 {
-        margin: 20px;
-        grid-area: e2;
+        @include size(10px, 10px, e2);
     }
 
     .e3 {
-        margin: 5px;
-        grid-area: e3;
+        @include size(5px, 2px, e3);
     }
 
     .e4 {
-        margin: 5px;
+        @extend .e3;
         grid-area: e4;
     }
 
     .e5 {
-        margin: 5px;
+        @extend .e3;
         grid-area: e5;
     }
 
     .e6 {
-        margin: 5px;
+        @extend .e3;
         grid-area: e6;
     }
 
     .e7 {
-        margin: 5px;
+        @extend .e3;
         grid-area: e7;
     }
 }
