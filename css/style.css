@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 * {
   margin: 0;
@@ -29,14 +30,13 @@ header {
 /* index */
 .jumbotron {
   background-color: rgba(29, 185, 177, 0.075);
-  color: rgba(255, 0, 0, 0.719);
-  text-shadow: 1px 1px 1px violet;
+  color: #f70101;
   text-align: center; }
 
 /* nosotres */
 h1 {
   color: rgba(255, 0, 0, 0.671);
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Rubik Moonrocks', cursive;
   font-size: 4em;
   text-align: center;
   text-transform: uppercase; }
@@ -55,7 +55,8 @@ h1 {
 /* contacto */
 form {
   text-align: center;
-  color: rgba(255, 0, 0, 0.493); }
+  color: rgba(255, 0, 0, 0.493);
+  padding: 50px; }
 
 .check {
   text-align: center; }

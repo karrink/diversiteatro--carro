@@ -1,15 +1,14 @@
 /* index */
 .jumbotron {
     background-color: rgba(29, 185, 177, 0.075);
-    color: rgba(255, 0, 0, 0.719);
-    text-shadow: 1px 1px 1px violet;
+    color: rgb(247, 1, 1);
     text-align: center;
 }
 
 /* nosotres */
 h1 {
     color: rgba(255, 0, 0, 0.671);
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
     font-size: $h1;
     text-align: center;
     text-transform: uppercase;
@@ -37,6 +36,7 @@ h1 {
 form {
     text-align: center;
     color: rgba(255, 0, 0, 0.493);
+    padding: 50px;
 }
 
 .check {
